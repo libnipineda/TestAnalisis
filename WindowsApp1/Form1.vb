@@ -42,11 +42,13 @@ Public Class Form1
 
         cod = CULng(TextBox1.Text)
         desc = RichTextBox1.Text
+        fecha = Format(DateTimePicker1.Value, "yyyy-MM-dd")
         status = TextBox2.Text
         origen = TextBox3.Text
 
         Console.WriteLine(cod)
         Console.WriteLine(desc)
+        Console.WriteLine(fecha)
         Console.WriteLine(status)
         Console.WriteLine(origen)
 
